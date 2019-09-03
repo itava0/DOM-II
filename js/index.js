@@ -1,4 +1,5 @@
 //Task: Create Unique Event Listeners
+
 //Load Event
 window.addEventListener('load', (event) => {
   alert("Welcome!!!");
@@ -67,7 +68,6 @@ header.forEach(item => {
 });
 
 // Copy Event 
- 
 const para = document.querySelectorAll('p');
 para.forEach(item => {
   item.addEventListener('copy', (e)=>{
